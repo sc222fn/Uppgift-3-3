@@ -1,1 +1,93 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container {
+    margin:auto;
+    width:600px;
+    height:auto;
+    background-color:#225;
+}
+
+#topbar {
+    background-image: url(pics/coffey.jpg);
+    Background-repeat:no-repeat;
+    background-color:#531;
+    background-position: 0 20px;
+    width:600px;
+    height:220px;
+    text-align:right;
+}
+
+#menu ul {
+    list-style:none;
+    padding:0 10px 0;
+}
+
+#menu li {
+    display:inline-block;
+    padding:7px 8px;
+    margin:0 -1px;
+    background-color:#946;
+}
+
+#menu li a {
+    text-decoration:none;
+    color:#000;
+    padding:7px 10px;
+}
+
+#maincontent {
+    width:360px;
+    float:left;
+}
+
+#maincontent img {
+    float:left;
+    padding-left:10px;
+    margin-right:10px;
+}
+
+#maincontent p {
+    font-size:16px;
+    padding:10px;
+    line-height:20px;
+}
+
+#maincontent h1 {
+    padding-left:10px;
+    margin-top:0px;
+}
+
+#subcontent {
+    width:230px;
+    float:left;
+    border-left-style:dashed;
+    border-left-width:thin;
+}
+
+#subcontent ul {
+    list-style:NONE;
+}
+
+#subcontent a {
+    color:#000;
+}
+
+#subcontent p {
+    padding:10px;
+    font-size:12px;
+    line-height:21px;
+}
+
+#subcontent h1 {
+    font-size:18px;
+    padding-left:10px;
+}
+
+#subcontent h2 {
+    font-size:12px;
+    padding:20px 40px 0;
+}
+
+#bottomcontent {
+    float:left;
+}
